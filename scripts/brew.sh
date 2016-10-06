@@ -63,7 +63,7 @@ brew install dns2tcp
 brew install fcrackzip
 brew install foremost
 brew install hashpump
-brew install htop
+brew install htop-osx
 brew install hydra
 brew install john
 brew install knock
@@ -92,6 +92,7 @@ brew install node
 brew install p7zip
 brew install pigz
 brew install pv
+brew install python
 brew install rename
 brew install rhino
 brew install source-highlight
