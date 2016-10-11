@@ -5,14 +5,8 @@ cd "$(dirname "${BASH_SOURCE}")";
 git pull origin master;
 
 function doIt() {
-	rsync --exclude ".git/" \
-		--exclude ".DS_Store" \
-		--exclude ".osx" \
-		--exclude "bootstrap.sh" \
-		--exclude "README.md" \
-		--exclude "LICENSE.txt" \
-		-avh --no-perms . ~;
-	source ~/.bash_profile;
+	# Install Oh My Zsh
+	./scripts/oh-my-z.sh;
 
   # Install Homebrew formulae
   ./scripts/brew.sh;
@@ -28,6 +22,15 @@ function doIt() {
 
 	# Install Apps From Mac App Store
 	./scripts/macappstore.sh;
+
+	rsync --exclude ".git/" \
+		--exclude ".DS_Store" \
+		--exclude ".osx" \
+		--exclude "bootstrap.sh" \
+		--exclude "README.md" \
+		--exclude "LICENSE.txt" \
+		-avh --no-perms . ~;
+	source ~/.zshrc;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
