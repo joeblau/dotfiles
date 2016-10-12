@@ -4,8 +4,6 @@
 
 # CCMenu
 mas install 603117688
-# Install 10.12 Developer Preview
-mas install 1073243506
 # GIF Brewery 3
 mas install 1081413713
 # Color Picker
