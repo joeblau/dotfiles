@@ -113,5 +113,7 @@ brew install carthage
 brew install clang-format
 brew install swiftlint
 
+brew cask install hyper
+
 # Remove outdated versions from the cellar.
 brew cleanup
