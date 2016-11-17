@@ -112,6 +112,9 @@ brew install zopfli
 brew install carthage
 brew install clang-format
 brew install swiftlint
+brew install ideviceinstaller
+brew install libimobiledevice
+
 
 brew cask install hyper
 
