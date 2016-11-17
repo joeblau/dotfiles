@@ -8,6 +8,10 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade --all
 
+
+brew link cmake
+brew link boost
+s
 # Install GNU core utilities-.
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
@@ -18,12 +22,7 @@ brew install moreutils
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
-# Install Bash 4.
-# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
-# running `chsh`.
-brew install bash
 brew tap homebrew/versions
-brew install bash-completion2
 
 # Install zsh
 brew install zsh
@@ -57,7 +56,6 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
 brew install bfg
 brew install binutils
 brew install binwalk

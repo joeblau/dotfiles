@@ -1,6 +1,6 @@
 module.exports = {
   config: {
-    shell: "/usr/local/bin/zsh",
+    shell: "/bin/zsh",
 
     // default font size in pixels for all tabs
     fontSize: 12,
@@ -27,28 +27,7 @@ module.exports = {
     termCSS: '',
 
     // custom padding
-    padding: '12px 14px',
-
-    // some color overrides. see http://bit.ly/29k1iU2 for
-    // the full list
-    colors: [
-      '#000000',
-      '#ff0000',
-      '#33ff00',
-      '#ffff00',
-      '#0066ff',
-      '#cc00ff',
-      '#00ffff',
-      '#d0d0d0',
-      '#808080',
-      '#ff0000',
-      '#33ff00',
-      '#ffff00',
-      '#0066ff',
-      '#cc00ff',
-      '#00ffff',
-      '#ffffff'
-    ]
+    padding: '12px 14px 12px 14px'
   },
 
   // a list of plugins to fetch and install from npm
@@ -58,7 +37,8 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyperterm-tomorrow-night-bright'
+    'hyperterm-tomorrow-night-bright',
+    'hyperlinks'
   ],
 
   // in development, you can create a directory under
