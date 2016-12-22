@@ -112,7 +112,7 @@ brew install clang-format
 brew install swiftlint
 brew install ideviceinstaller
 brew install libimobiledevice
-
+brew install sourcekitten
 
 brew cask install hyper
 
