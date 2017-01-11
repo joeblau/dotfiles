@@ -84,7 +84,7 @@ brew install xz
 brew install ack
 brew install dark-mode
 #brew install exiv2
-brew install git
+brew install git --without-completions
 brew install git-lfs
 brew install imagemagick --with-webp
 brew install lua
