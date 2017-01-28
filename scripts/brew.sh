@@ -105,6 +105,7 @@ brew install tree
 brew install vbindiff
 brew install webkit2png
 brew install zopfli
+brew install wrk
 
 # Install iOS Stuff
 brew install carthage
