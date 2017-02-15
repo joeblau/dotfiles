@@ -84,7 +84,7 @@ brew install xz
 brew install ack
 brew install dark-mode
 #brew install exiv2
-brew install git
+brew install git --without-completions
 brew install git-lfs
 brew install imagemagick --with-webp
 brew install lua
@@ -105,6 +105,8 @@ brew install tree
 brew install vbindiff
 brew install webkit2png
 brew install zopfli
+brew install wrk
+brew install homebrew/php/composer
 
 # Install iOS Stuff
 brew install carthage
