@@ -107,6 +107,7 @@ brew install webkit2png
 brew install zopfli
 brew install wrk
 brew install homebrew/php/composer
+brew install hugo
 
 # Install iOS Stuff
 brew install carthage
