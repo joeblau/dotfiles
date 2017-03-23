@@ -115,6 +115,16 @@ function o() {
 	fi;
 }
 
+# `s` with no arguments opens the current directory, otherwise opens the given
+# location
+function s() {
+	if [ $# -eq 0 ]; then
+		subl .;
+	else
+		subl "$@";
+	fi;
+}
+
 # Gitignore.io
 function gi() {
   curl -L -s https://www.gitignore.io/api/$@;
