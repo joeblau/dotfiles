@@ -65,7 +65,7 @@ plugins=(colorize compleat dirpersist autojump git gulp history cp)
 source $ZSH/oh-my-zsh.sh
 
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
+export PATH="/usr/local/bin:$HOME/bin:$PATH:$HOME/.cabal/bin";
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
