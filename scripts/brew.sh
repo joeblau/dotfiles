@@ -23,6 +23,7 @@ brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
 brew tap homebrew/versions
+brew tap schwa/punic
 
 # Install zsh
 brew install zsh
@@ -116,8 +117,7 @@ brew install swiftlint
 brew install ideviceinstaller
 brew install libimobiledevice
 brew install sourcekitten
-
-brew cask install hyper
+brew install punic
 
 # Remove outdated versions from the cellar.
 brew cleanup
