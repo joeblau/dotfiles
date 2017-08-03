@@ -135,6 +135,11 @@ function pi() {
   pod install --project-directory=${1:-.};
 }
 
+# Day Of year
+function doy() {
+	echo $(date +%j)
+}
+
 # Powerline
 function _update_ps1() {
     PS1="$(~/powerline-shell.py $? 2> /dev/null)"
