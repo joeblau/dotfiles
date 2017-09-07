@@ -16,8 +16,6 @@ mas install 847496013
 mas install 918858936
 # PhotoBulk
 mas install 537211143
-# Unclutter
-mas install 577085396
 # Tweetbot
 mas install 557168941
 # Deliveries
