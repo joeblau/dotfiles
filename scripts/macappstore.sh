@@ -30,3 +30,5 @@ mas install 443987910
 mas install 824183456 
 # Affinity Designer
 mas install 824171161
+# Pastebot
+mas install 1179623856
