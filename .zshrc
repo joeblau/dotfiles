@@ -58,14 +58,12 @@ DISABLE_AUTO_UPDATE="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(colorize compleat dirpersist autojump git gulp history cp zsh-nvm zsh-better-npm-completion zsh-autosuggestions)
+plugins=(colorize compleat dirpersist autojump git gulp history cp zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
