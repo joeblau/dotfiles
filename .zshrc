@@ -131,3 +131,5 @@ _arc ()
   COMPREPLY=( $(compgen -W "${OPTS}" -- ${CUR}) )
 }
 complete -F _arc -o filenames arc
+
+export TERM="xterm-256color"
