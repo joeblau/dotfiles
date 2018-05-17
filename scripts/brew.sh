@@ -119,5 +119,8 @@ brew install libimobiledevice
 brew install sourcekitten
 brew install punic
 
+# Utilities
+brew cask install fluor
+
 # Remove outdated versions from the cellar.
 brew cleanup
