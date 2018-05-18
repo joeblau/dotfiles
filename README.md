@@ -1,4 +1,4 @@
-<img src="https://cdn.rawgit.com/joeblau/dotfiles/master/.github/dotfiles.svg"/>
+<img src="https://raw.githubusercontent.com/joeblau/dotfiles/master/.github/dotfiles.svg"/>
 
 <p align="center">
   <a href="https://www.apple.com/macOS/"><img src="https://img.shields.io/badge/platform-macOS-brightgreen.svg?style=flat-square"/></a>
