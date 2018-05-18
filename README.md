@@ -1,4 +1,8 @@
-<img src="https://raw.githubusercontent.com/joeblau/dotfiles/master/.github/dotfiles.svg"/>
+<p align="center">
+    <img src="https://cdn.rawgit.com/joeblau/dotfiles/master/.github/dotfiles.svg" />
+    <br>
+    <small>Joe Blau's dotfiles</small>
+</p>
 
 <p align="center">
   <a href="https://www.apple.com/macOS/"><img src="https://img.shields.io/badge/platform-macOS-brightgreen.svg?style=flat-square"/></a>
