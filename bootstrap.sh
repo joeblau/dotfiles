@@ -6,30 +6,31 @@ git pull origin master;
 
 function doIt() {
 	# Install Oh My Zsh
-	./scripts/oh-my-z.sh;
+	./topics/zsh/oh-my-z.sh;
 
-  # Install Homebrew formulae
-  ./scripts/brew.sh;
+	# Install Homebrew formulae
+  	./topics/homebrew/brew.sh;
 
 	# Sensible macOS defaults
-	./scripts/macos.sh;
+	./topics/macappstore/macos.sh;
 
 	# Install Fonts
-	./scripts/fonts.sh;
+	./topics/typography/fonts.sh;
 
 	# Install Powerline shell
-	./scripts/powerline.sh;
+	./topics/powerline/powerline.sh;
 
 	# Install Apps From Mac App Store
-	./scripts/macappstore.sh;
+	./topics/macappstore.sh;
 
 	rsync --exclude ".git/" \
-		--exclude ".DS_Store" \
-		--exclude ".osx" \
-		--exclude "bootstrap.sh" \
-		--exclude "README.md" \
-		--exclude "LICENSE.txt" \
-		-avh --no-perms . ~;
+	--exclude ".DS_Store" \
+	--exclude ".osx" \
+	--exclude "bootstrap.sh" \
+	--exclude "README.md" \
+	--exclude "LICENSE.txt" \
+	-avh --no-perms . ~;
+	ln -s ~/topics/zsh/.zshrc ~/.zshrc
 	source ~/.zshrc;
 }
 
