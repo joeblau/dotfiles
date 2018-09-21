@@ -148,3 +148,13 @@ function _update_ps1() {
 if [ "$TERM" != "linux" ]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
+
+# mount the android file image
+mountAndroid() {
+        hdiutil attach ~/android.dmg.sparseimage -mountpoint /Volumes/android;
+}
+
+# unmount the android file image
+umountAndroid() {
+        hdiutil detach /Volumes/android;
+}
