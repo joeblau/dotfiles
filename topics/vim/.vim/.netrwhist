@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/mway/src/git/uatc/av/source'
+let g:netrw_dirhist_2='/home/mway/src/git/uatc/av/source/hub'
+let g:netrw_dirhist_3='/home/mway/src/git/uatc/av/source/hub/base'
+let g:netrw_dirhist_4='/home/mway/src/git/uatc/av/source/hub/base/bindings'
