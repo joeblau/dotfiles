@@ -39,4 +39,4 @@ mas install 425955336
 # Spark
 mas install 1176895641
 # iA Writer
-mas install 775737172
+mas install 775737590 

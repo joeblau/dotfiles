@@ -7,12 +7,15 @@
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade 
 
+# Utilities
+brew cask install fluor
+brew cask install sublime-text
+brew cask install adoptopenjdk
 
-brew link cmake
 brew link boost
-s
+
 # Install GNU core utilities-.
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
@@ -22,7 +25,7 @@ brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
+brew install gnu-sed 
 brew tap homebrew/versions
 brew tap schwa/punic
 
@@ -30,14 +33,8 @@ brew tap schwa/punic
 brew install zsh
 brew install zsh-completions
 
-# Switch to using brew-installed bash as default shell
-if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
-  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
-  chsh -s /usr/local/bin/bash;
-fi;
-
 # Install `wget` with IRI support.
-brew install wget --with-iri
+brew install wget 
 
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
@@ -46,10 +43,7 @@ brew install ringojs
 brew install narwhal
 
 # Install more recent versions of some macOS tools.
-brew install vim --override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install vim 
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -86,9 +80,9 @@ brew install xz
 brew install ack
 brew install dark-mode
 #brew install exiv2
-brew install git --without-completions
+brew install git 
 brew install git-lfs
-brew install imagemagick --with-webp
+brew install imagemagick 
 brew install lua
 brew install lynx
 brew install mas
@@ -108,20 +102,17 @@ brew install vbindiff
 brew install webkit2png
 brew install zopfli
 brew install wrk
-brew install homebrew/php/composer
 brew install hugo
 
 # Install iOS Stuff
 brew install carthage
 brew install clang-format
 brew install swiftlint
+brew install swiftformat
 brew install ideviceinstaller
 brew install libimobiledevice
 brew install sourcekitten
 brew install punic
-
-# Utilities
-brew cask install fluor
 
 # Remove outdated versions from the cellar.
 brew cleanup

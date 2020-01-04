@@ -14,14 +14,11 @@ function doIt() {
 	# Sensible macOS defaults
 	./topics/macappstore/macos.sh;
 
-	# Install Fonts
-	./topics/typography/fonts.sh;
-
 	# Install Powerline shell
 	./topics/powerline/powerline.sh;
 
 	# Install Apps From Mac App Store
-	./topics/macappstore.sh;
+	./topics/macappstore/macappstore.sh;
 
 	rsync --exclude ".git/" \
 	--exclude ".DS_Store" \
@@ -41,6 +38,7 @@ function doIt() {
 	ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/.
 
 	ln -s ~/topics/zsh/.zshrc ~/.zshrc
+	cp ./topics/zsh/oh-my-z.sh ~/.oh-my-zsh
 	source ~/.zshrc;
 }
 
