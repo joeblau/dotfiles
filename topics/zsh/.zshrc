@@ -63,7 +63,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(colorize compleat dirpersist autojump git gulp history cp zsh-autosuggestions)
+plugins=(colorize compleat dirpersist autojump git gulp history cp zsh-better-npm-completion)
 
 source $ZSH/oh-my-zsh.sh
 

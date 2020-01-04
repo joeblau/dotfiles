@@ -28,10 +28,12 @@ brew install findutils
 brew install gnu-sed 
 brew tap homebrew/versions
 brew tap schwa/punic
+brew tap sambadevi/powerlevel9k
 
 # Install zsh
 brew install zsh
 brew install zsh-completions
+brew install autojump
 
 # Install `wget` with IRI support.
 brew install wget 
