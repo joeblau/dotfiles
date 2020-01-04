@@ -28,17 +28,16 @@ function doIt() {
 	--exclude "LICENSE.txt" \
 	-avh --no-perms . ~;
 
-	ln -s ~/topics/functions/.functions ~/.functions
-	ln -s ~/topics/bash/.bash_prompt ~/.bash_prompt
-	ln -s ~/topics/bash/.bash_profile ~/.bash_profile
-	ln -s ~/topics/exports/.exports ~/.exports
-	ln -s ~/topics/aliases/.aliases ~/.aliases
-	ln -s ~/topics/git/.extra ~/.extra
+	ln -s /usr/local/dotfiles/topics/functions/.functions ~/.functions
+	ln -s /usr/local/dotfiles/topics/bash/.bash_prompt ~/.bash_prompt
+	ln -s /usr/local/dotfiles/topics/bash/.bash_profile ~/.bash_profile
+	ln -s /usr/local/dotfiles/topics/exports/.exports ~/.exports
+	ln -s /usr/local/dotfiles/topics/aliases/.aliases ~/.aliases
+	ln -s /usr/local/dotfiles/topics/git/.extra ~/.extra
 
 	ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/.
 
-	ln -s ~/topics/zsh/.zshrc ~/.zshrc
-	cp ./topics/zsh/oh-my-z.sh ~/.oh-my-zsh
+	ln -s /topics/zsh/.zshrc ~/.zshrc
 	source ~/.zshrc;
 }
 
