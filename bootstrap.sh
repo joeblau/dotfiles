@@ -37,7 +37,7 @@ function doIt() {
 
 	ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/.
 
-	ln -s /topics/zsh/.zshrc ~/.zshrc
+	ln -s /usr/local/dotfiles/topics/zsh/.zshrc ~/.zshrc
 	source ~/.zshrc;
 }
 
