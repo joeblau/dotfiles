@@ -40,3 +40,5 @@ mas install 425955336
 mas install 1176895641
 # iA Writer
 mas install 775737590 
+# Icon Slate
+mas install 439697913
