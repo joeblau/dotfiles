@@ -42,3 +42,5 @@ mas install 1176895641
 mas install 775737590 
 # Icon Slate
 mas install 439697913
+# Toothfairy
+mas install 1191449274
