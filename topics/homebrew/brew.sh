@@ -2,6 +2,7 @@
 
 # Install command-line tools using Homebrew.
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew tap yonaskolb/SwagGen https://github.com/yonaskolb/SwagGen.git
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -115,6 +116,7 @@ brew install ideviceinstaller
 brew install libimobiledevice
 brew install sourcekitten
 brew install punic
+brew install SwagGen
 
 # Remove outdated versions from the cellar.
 brew cleanup
