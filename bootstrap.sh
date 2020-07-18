@@ -17,9 +17,6 @@ function doIt() {
 	# Install Powerline shell
 	./topics/powerline/powerline.sh;
 
-	# Install Apps From Mac App Store
-	./topics/macappstore/macappstore.sh;
-
 	rsync --exclude ".git/" \
 	--exclude ".DS_Store" \
 	--exclude ".osx" \

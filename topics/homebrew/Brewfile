@@ -1,0 +1,155 @@
+tap "bramstein/webfonttools"
+tap "dart-lang/dart"
+tap "github/gh"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "joeblau/hb"
+tap "sambadevi/powerlevel9k"
+tap "sass/sass"
+tap "vapor/tap"
+tap "yonaskolb/swaggen", "https://github.com/yonaskolb/SwagGen.git"
+
+brew "ack"
+brew "autojump"
+brew "binutils"
+brew "p7zip"
+brew "xz"
+brew "python@3.8", link: false
+brew "binwalk"
+brew "glib"
+brew "carthage"
+brew "cifer"
+brew "clang-format"
+brew "cloc"
+brew "cocoapods"
+brew "coreutils"
+brew "dark-mode"
+brew "dex2jar"
+brew "dns2tcp"
+brew "elixir"
+brew "exiftool"
+brew "fastlane", link: false
+brew "fcrackzip"
+brew "findutils"
+brew "foremost"
+brew "gdal"
+brew "git"
+brew "git-lfs"
+brew "gitlab-runner"
+brew "gnu-sed"
+brew "harfbuzz"
+brew "lua"
+brew "gnuplot"
+brew "netpbm"
+brew "graphviz"
+brew "hashpump"
+brew "htop"
+brew "hugo"
+brew "hydra"
+brew "libimobiledevice"
+brew "ideviceinstaller"
+brew "libheif"
+brew "imagemagick"
+brew "influxdb"
+brew "john"
+brew "knock"
+brew "kompose"
+brew "kubernetes-cli"
+brew "librdkafka"
+brew "lynx"
+brew "mas"
+brew "minikube"
+brew "moreutils"
+brew "narwhal"
+brew "nmap"
+brew "node"
+brew "pigz"
+brew "pngcheck"
+brew "postgresql", restart_service: true
+brew "postgis"
+brew "punic"
+brew "pv"
+brew "rename"
+brew "rhino"
+brew "socat"
+brew "source-highlight"
+brew "sourcekitten"
+brew "speedtest-cli"
+brew "sqlmap"
+brew "ssh-copy-id", link: true
+brew "swagger-codegen"
+brew "swiftformat"
+brew "swiftgen"
+brew "swiftlint"
+brew "tcpflow"
+brew "tcpreplay"
+brew "tcptrace"
+brew "testssl"
+brew "tree"
+brew "ucspi-tcp"
+brew "vbindiff"
+brew "vim"
+brew "webkit2png"
+brew "wget"
+brew "woff2"
+brew "wrk"
+brew "xcodegen"
+brew "youtube-dl"
+brew "zopfli"
+brew "zsh"
+brew "zsh-completions"
+brew "bramstein/webfonttools/sfnt2woff"
+brew "bramstein/webfonttools/sfnt2woff-zopfli"
+brew "github/gh/gh"
+brew "heroku/brew/heroku"
+brew "joeblau/hb/simrecord"
+brew "sambadevi/powerlevel9k/powerlevel9k"
+brew "sass/sass/sass"
+brew "vapor/tap/vapor"
+brew "vapor/tap/vapor-beta"
+brew "yonaskolb/swaggen/swaggen"
+
+cask "adoptopenjdk8"
+cask "adoptopenjdk"
+cask "fastlane"
+cask "fluor"
+cask "sublime-text"
+cask "zettlr"
+
+mas "1Blocker", id: 1107421413
+mas "1Password 7", id: 1333542190
+mas "Adaptivity", id: 1054670022
+mas "Affinity Designer", id: 824171161
+mas "Affinity Photo", id: 824183456
+mas "Affinity Publisher", id: 881418622
+mas "Crypto Pro", id: 980888073
+mas "Deliveries", id: 924726344
+mas "Diagrams", id: 1276248849
+mas "Easy CSV Editor", id: 1171346381
+mas "Fantastical", id: 975937182
+mas "Final Cut Pro", id: 424389933
+mas "GarageBand", id: 682658836
+mas "GIF Brewery 3", id: 1081413713
+mas "iA Writer", id: 775737590
+mas "Icon Slate", id: 439697913
+mas "iMovie", id: 408981434
+mas "JSONPeep", id: 1458969831
+mas "Keynote", id: 409183694
+mas "Logic Pro X", id: 634148309
+mas "Magnet", id: 441258766
+mas "Monodraw", id: 920404675
+mas "Pages", id: 409201541
+mas "Pastebot", id: 1179623856
+mas "RectLabel", id: 1210181730
+mas "Skitch", id: 425955336
+mas "Slack", id: 803453959
+mas "Spark", id: 1176895641
+mas "Spectrum", id: 518156125
+mas "StopTheMadness", id: 1376402589
+mas "SVG Assets", id: 1473747723
+mas "Tweetbot", id: 1384080005
+mas "Xcode", id: 497799835
