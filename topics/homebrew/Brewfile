@@ -112,6 +112,7 @@ brew "sass/sass/sass"
 brew "vapor/tap/vapor"
 brew "vapor/tap/vapor-beta"
 brew "yonaskolb/swaggen/swaggen"
+brew "Nonchalant/appicon/appicon"
 
 cask "adoptopenjdk8"
 cask "adoptopenjdk"
