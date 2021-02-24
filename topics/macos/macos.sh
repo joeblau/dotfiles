@@ -550,6 +550,8 @@ defaults write com.apple.Xcode PBXNumberOfParallelBuildSubtasks `sysctl -n hw.nc
 defaults write com.apple.Xcode IDEBuildOperationMaxNumberOfConcurrentCompileTasks `sysctl -n hw.ncpu`
 
 
+defaults write http://com.apple.dt.Xcode IDEAdditionalCounterpartSuffixes -array-add "ViewModel" "View" "Screen"
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
