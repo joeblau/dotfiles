@@ -17,7 +17,7 @@ These dotfiles are what I use when I setup a new Mac by automating my configurai
 ## Installation
 
 ```sh
-sudo git clone git@github.com:joeblau/dotfiles.git /usr/local/dotfiles
+sudo git clone https://github.com/joeblau/dotfiles.git /usr/local/dotfiles
 cd /usr/local/dotfiles
 ./bootstrap.sh
 ``` 
