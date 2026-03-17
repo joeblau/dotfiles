@@ -118,4 +118,5 @@ alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pa
 alias setsim="xcrun simctl status_bar Booted override --time '2009-01-03T18:15:05.000Z' --dataNetwork '5g'"
 
 # AI
+alias cc="claude --dangerously-skip-permissions"
 alias ghwatch='watch -n 10 -c '"'"'{ echo -e "STATUS\tCONCLUSION\tTITLE"; gh run list --limit 5 --json status,conclusion,displayTitle -q ".[] | [.status, .conclusion, .displayTitle] | @tsv"; } | awk -F"\t" "BEGIN { GREEN=\"\033[32m\"; RED=\"\033[31m\"; YELLOW=\"\033[33m\"; RESET=\"\033[0m\" } NR==1 { printf \"%-4s %-20s\n\", \"ST\", \"TITLE\"; next } { title = substr(\$3, 1, 20); if (\$2 == \"success\") icon = GREEN \"✓\" RESET; else if (\$2 == \"failure\") icon = RED \"✗\" RESET; else if (\$2 == \"cancelled\") icon = RED \"⊘\" RESET; else if (\$1 == \"in_progress\") icon = YELLOW \"⟳\" RESET; else icon = YELLOW \"?\" RESET; printf \"%-4s %-20s\n\", icon, title }"'"'"''
